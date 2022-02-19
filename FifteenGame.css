@@ -1,0 +1,289 @@
+* {
+    box-sizing: border-box;
+}
+
+.wraper {
+    width: 400px;
+    margin: 80px auto;
+}
+
+.buttons {
+    height: 140px;
+    background-color: blue;
+    position: relative;
+    border: 4px solid rgb(0, 0, 0);
+    border-bottom: 6px outset blue;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+}
+
+button {
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgb(14, 209, 47);
+    opacity: 1;
+    outline: none;
+}
+button:hover {
+    opacity: 0.75;
+}
+button:active {
+    transform: scale(0.95);
+}
+
+#up {
+    position: absolute;
+    left: 172px;
+    top:4px;
+}
+#down {
+    position: absolute;
+    left: 172px;
+    top:75px;
+   
+}
+#left {
+    position: absolute;
+    left: 134px;
+    top:40px;
+}
+#right {
+    position: absolute;
+    left: 210px;
+    top:40px
+}
+
+.table {
+    display: table;
+    border: 4px solid black;
+    border-top: none;
+}
+
+.row {
+    display: table-row;
+}
+
+.data {
+    height: 100px;
+    width: 100px;
+    display: table-cell;
+    font-size: 50px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.data0 {
+    background: blue;
+}
+
+.data1 {
+    position: relative;
+    border: 6px outset rgb(201, 201, 201);
+    background: rgb(247, 0, 255);
+}
+
+.data1::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "1";
+}
+
+.data2 {
+    position: relative;
+    border: 6px outset rgb(201, 201, 201);
+    background: rgb(0, 238, 255);
+}
+
+.data2::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "2";
+}
+
+.data3 {
+    position: relative;
+    border: 6px outset rgb(201, 201, 201);
+    background: rgb(247, 0, 255);
+}
+
+.data3::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "3";
+}
+
+.data4 {
+    position: relative;
+    border: 6px outset rgb(201, 201, 201);
+    background: rgb(0, 255, 0);
+}
+
+.data4::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "4";
+}
+
+.data5 {
+    position: relative;
+    border: 6px outset rgb(201, 201, 201);
+    background: rgb(255, 0, 0);
+}
+
+.data5::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "5";
+}
+
+.data6 {
+    position: relative;
+    border: 6px outset rgb(201, 201, 201);
+    background: rgb(255, 251, 0);
+}
+
+.data6::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "6";
+}
+
+.data7 {
+    position: relative;
+    border: 6px outset rgb(201, 201, 201);
+    background: rgb(255, 145, 0);
+}
+
+.data7::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "7";
+}
+
+.data8 {
+    position: relative;
+    border: 6px outset rgb(201, 201, 201);
+    background: rgb(255, 251, 0);
+}
+
+.data8::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "8";
+}
+
+.data9 {
+    position: relative;
+    border: 6px outset rgb(201, 201, 201);
+    background: rgb(174, 0, 255);
+}
+
+.data9::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "9";
+}
+
+.data10 {
+    position: relative;
+    border: 6px outset rgb(201, 201, 201);
+    background: rgb(255, 0, 0);
+}
+
+.data10::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "10";
+}
+
+.data11 {
+    position: relative;
+    border: 6px outset rgb(201, 201, 201);
+    background: rgb(0, 238, 255);
+}
+
+.data11::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "11";
+}
+
+.data12 {
+    position: relative;
+    border: 6px outset rgb(201, 201, 201);
+    background: blue;
+}
+
+.data12::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "12";
+}
+
+.data13 {
+    position: relative;
+    border: 6px outset rgb(201, 201, 201);
+    background: rgb(0, 255, 0);
+}
+
+.data13::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "13";
+}
+
+.data14 {
+    position: relative;
+    border: 6px outset rgb(201, 201, 201);
+    background: rgb(255, 145, 0);
+}
+
+.data14::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "14";
+}
+
+.data15 {
+    position: relative;
+    border: 6px outset rgb(201, 201, 201);
+    background: rgb(174, 0, 255);
+}
+
+.data15::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "15";
+}
